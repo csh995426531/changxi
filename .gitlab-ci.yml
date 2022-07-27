@@ -1,0 +1,10 @@
+include:
+  - project: fe/inf/devops
+    ref: master
+    file: /browser/singleRepo/.ci.base-with-docker.yml
+
+variables:
+  IMAGE_NAME: changxi
+  PROJECT_DIR_PATH: pc
+  LINT: 'true'
+  TEST: 'true'
