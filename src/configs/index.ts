@@ -1,10 +1,10 @@
 export default {
   prod: {
     sentryDSN:
-      'https://e0cab789c4444eb3b048934904ade69c@sentry.kezaihui.com/192',
+      'https://c7b257dc9f2b4e03b20d5f6aa65c9bce@sentry.kezaihui.com/193',
   },
   alpha: {
     sentryDSN:
-      'https://e0cab789c4444eb3b048934904ade69c@sentry.kezaihui.com/192',
+      'https://c7b257dc9f2b4e03b20d5f6aa65c9bce@sentry.kezaihui.com/193',
   },
 }

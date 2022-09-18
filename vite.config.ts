@@ -22,8 +22,22 @@ export default defineConfig({
   plugins: [react()],
   base: getBase(),
   resolve: {
-    alias: {
-      '@': path.resolve(__dirname, 'src'),
+    alias: [
+      {
+        find: /^~antd/,
+        replacement: 'antd',
+      },
+      {
+        find: '@',
+        replacement: path.resolve(__dirname, './src'),
+      },
+    ],
+  },
+  css: {
+    preprocessorOptions: {
+      less: {
+        javascriptEnabled: true,
+      },
     },
   },
 })
