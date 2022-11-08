@@ -33,7 +33,11 @@
     "mobx-react": "^7.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "i18next": "^21.8.14",
+    "react-i18next": "^11.18.2",
+    "lodash": "^4.17.21",
+    "@types/lodash": "^4.14.182"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.9",
